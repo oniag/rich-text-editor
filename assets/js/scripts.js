@@ -25,7 +25,7 @@ for(let i = 0; i < icon.length; i++) {
 const urlTransform = () => {
   let url = prompt("Digite sua url: ");
   if (!url) {
-    alert('Url não inserida');
+    alert('Url não inserida!');
     return;
   }
   let textSelected = document.getSelection();
