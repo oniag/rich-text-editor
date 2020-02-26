@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" crossorigin="anonymous" />
+  <link rel="shortcut icon" href="assets/img/pencil.png" />
+  <title>Rich Text Javascript</title>
+</head>
+<body>
+  <div class="area">
+    <div class="menu">
+      <ul class="list">
+        <li>
+          <a href="javascript://" title="Texto negrito">
+            <i class="fas fa-bold" data-attr="bold"></i>
+          </a>
+        </li>
+        <li>
+          <a href="javascript://" title="Texto itálico">
+            <i class="fas fa-italic" data-attr="italic"></i>
+          </a>
+        </li>
+        <li>
+          <a href="javascript://" title="Texto com sublinhado">
+            <i class="fas fa-underline" data-attr="underline"></i>
+          </a>
+        </li>
+        <li>
+          <a href="javascript://" title="Transformar em link">
+            <i class="fas fa-link fa-fw" id="urlTransform"></i>
+          </a>
+        </li>
+        <li>
+          <a href="javascript://" title="Aumentar a fonte">
+            <select id="fontSize">
+              <option value="">Tamanho fonte</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+            </select>
+          </a>
+        </li>
+        <li>
+          <a href="javascript://" title="Alinhado a esquerda">
+            <i class="fas fa-align-left" data-attr="justifyLeft"></i>
+          </a>
+        </li>
+        <li>
+          <a href="javascript://" title="Alinhado ao centro">
+            <i class="fas fa-align-center" data-attr="justifyCenter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="javascript://" title="Alinhado a direita">
+            <i class="fas fa-align-right" data-attr="justifyRight"></i>
+          </a>
+        </li>
+        <li>
+          <a href="javascript://" title="Remover estilos">
+            <i class="fas fa-window-close" data-attr="removeFormat"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="textArea"></div>
+  </div>
+
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>

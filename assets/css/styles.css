@@ -1,0 +1,52 @@
+body {
+  display: flex;
+}
+
+.area {
+  background-color: #eeeeee;
+  width: 900px;
+  margin: 100px auto;
+  padding: 30px;
+}
+
+.area .menu {
+  border: 1px solid rgb(187, 187, 187);
+  min-height: 20px;
+  border-radius: 0;
+  border-bottom-color: transparent;
+  background-color: #ffffff;
+}
+
+.area .menu ul li {
+  display: inline;
+  cursor: pointer;
+  margin-right: 7px;
+  min-width: 30px;
+  padding: 5px;
+}
+
+a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.textArea a {
+  color: #444eea;
+}
+.area .textArea {
+  min-height: 400px;
+  border: 1px solid rgb(187, 187, 187);
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.area .textArea:focus {
+  outline: none;
+}
+
+@media(max-width: 600px) {
+  .area {
+    margin: 10px;
+  }
+}
